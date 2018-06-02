@@ -1,0 +1,164 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+h1, h4 {
+	text-align: center;
+	margin: 5px;
+}
+h4:after{
+	content: url("../img/Actions-dialog.png");
+}
+h2{
+	margin: 30px auto;
+	width: 70%;
+	background: lightblue;
+	padding: 5px;
+	color: maroon;
+	text-align: center;
+	border-bottom: 2px solid blue;
+	border-radius: 20px;
+}
+h2 span{
+	color: blue;
+	background: lightgreen;
+	padding: 8px;
+	border: 3px dotted green;
+	border-radius: 25px;
+	font-size: 35px;
+	font-weight: bolder;
+	height: 30px;
+	line-height: 30px;
+}
+.container{
+	width: 40%;
+	margin: 0 auto;
+	padding: 10px;
+	background: #eee8aa;
+}
+.formDiv{
+	width: 80%;
+	padding: 10px;
+	margin: 5px auto;
+}
+.listDiv{
+	width: 80%;
+	padding: 15px;
+	margin: 5px auto;
+}
+input[type=text]{
+	width: 89%;
+	height: 40px;
+	line-height: 40px;
+	background: #ffd;
+	color: maroon;
+	box-sizing: border-box;;
+	padding: 5px;
+	font-size: 18px;
+	border: 1px solid #ccc;
+	transition: ease-in-out, width .35s ease-in-out;
+	float: left;
+}
+input[type=text]:focus {
+	width: 90%;
+	border: none;
+}
+input[type=text]:hover{
+	background: lightgreen;
+	border: 1px solid green;
+}
+input[type=submit]{
+	width: 10%;
+	height: 40px;
+	background: green;
+	color: white;
+	box-sizing: border-box;;
+	padding: 5px;
+	font-size: 25px;
+	border: 1px solid green;
+	border-radius: 50px;
+}
+input[type=submit]:hover{
+	background: lightgreen;
+	border: 1px solid #ccc;
+	color: #000;
+}
+input[type=submit]:active{
+	background: lightgreen;
+	border: 1px solid #ccc;
+	color: #000;
+}
+ol{
+	padding: 0 12px;
+	width: 100%;
+}
+ol>li{
+	width: 100%;
+	word-wrap: break-word;
+	margin: 10px;
+	padding: 5px;
+	font-size: 22px;
+	font-weight: bolder;
+	color: maroon;
+	list-style-type: none;
+	list-style-image: url("../img/blink.gif");
+}
+#remove{
+	margin: 1px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	background: red;
+	color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	float: right;
+}
+#remove:hover{
+	background: maroon;
+	color: white;
+}
+#compl{
+	margin: 1px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	background: green;
+	color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	float: right;
+}
+#compl:hover{
+	background: #fff;
+	color: green;
+}
+#complete{
+	color: green;
+	list-style-type: none;
+	list-style-image: url("../img/complete1.png");;
+}
+.centeredText{
+	color: #999;
+	text-align: center;
+}
+#clearParagraph{
+	text-align: center;
+}
+#clearParagraph button{
+	display: none;
+	margin: 0 auto;
+	border: none;
+	text-decoration: underline;
+	color: blue;
+	background: transparent;
+	padding: 5px;
+}
+#clearParagraph button:hover{
+	color: red;
+	cursor: pointer;
+}
+#clearBtn{
+	font-size: 18px;
+	color: red;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>To-Do App.</title>
+		<!-- <meta  http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4" /> -->
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h1><img src="img/scheduled-tasks-icon.png"></h1>
+			<h4>Just Do It</h4> <hr>
+			<h2>B.T.S <span>TO-DO</span> App.</h2>
+			<div class="formDiv">
+				<form method="POST" id="addForm" action="">
+					<input type="text" name="inputText" id="inputText" placeholder="input an activity" autofocus />
+					<input type="submit" name="submit" id="submitButton" value="+" />
+				</form>
+			</div>
+			<div class="listDiv">
+				<ol id="todoList" >
+				<!-- to be porpulated with javaScript -->
+				</ol>
+			</div>
+			<p id="clearParagraph"> 
+			<button id="clearBtn"></button>
+			</p>
+		</div>
+		<script type="text/javascript" src="script/main.js"></script>
+	</body>
+</html>
